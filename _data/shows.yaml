@@ -1,0 +1,14 @@
+- name: name of show
+  start: 2020-04-04T10:00:00
+  end: 2020-04-04T12:00:00
+  location: location
+  address: address
+  latitude: 12.123
+  longitude: 12.3456
+  urls:
+    - name: first entry form
+      url: first link
+    - name: second entry form
+      url: second link
+
+
