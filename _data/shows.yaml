@@ -16,8 +16,8 @@
   end: 2021-04-14T15:00
   location: "Cork City Hall"
   address: "City Hall, Anglesea St, Centre, Cork, Ireland"
-  latitude: 51.8971356
-  longitude: -8.4676703
+  latitude: 51.897135
+  longitude: -8.467670
   urls:
     - name: "Pedigree entry form"
       url: "https://www.dropbox.com/pedigree-entry-form.pdf"
