@@ -19,7 +19,7 @@ title: Show Dates
         {% endif %}
         <p>
             <iframe width="300" height="300"
-                    src="https://maps.google.com/maps?q={{ show.latitude }},{{ show.longitude }}&hl=es;z=14&amp;output=embed"></iframe>
+                    src="https://maps.google.com/maps?q={{ show.latitude }},{{ show.longitude }}{%raw%}&{%endraw%}hl=es;z=14{%raw%}&{%endraw%}amp;output=embed"></iframe>
         </p>
     </li>
     {% endfor %}
