@@ -8,11 +8,12 @@ seven steps must be followed:
 
 1. Gather the required information for the show (name, date, location, etc)
 2. Upload the relevant files (e.g. entry forms, rules, etc) to Dropbox
-3. Put the show information into the format required by the website
+3. Put the show information into the format required by the website (see 'Putting it all together' section 
+   below)
 4. Log into CCC's Github repo
 5. Paste the information into the shows file, and save the changes
 6. The website should be automatically updated about 5 minutes after the file is saved
-7. Check that the new page is accuract - visit the page, check the entered information, make sure the 
+7. Check that the new page is accuracte - visit the page, check the entered information, make sure the 
    files can be downloaded. 
    
 
