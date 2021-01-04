@@ -13,6 +13,7 @@ title: Show Dates
         {% if show.address %}
         <p>The full address for this event is: {{ show.address }}</p>
         {% endif %}
+        {% if show.description %}{{ show.description | safe }}{% endif %}
         {% if show.urls.size > 0 %}
         <p>The following links provide relevant info for the event.</p>
         {% for url in  show.urls %}
