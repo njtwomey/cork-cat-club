@@ -16,7 +16,7 @@ title: Show Dates
         {% if show.urls.size > 0 %}
         <p>The following links provide relevant info for the event.</p>
         {% for url in  show.urls %}
-            <p>The {{ url.name }} document can be downloaded from <a href="{{ url.url }}">here</a>.</p>
+            <p>Click <a href="{{ url.url }}">here for the {{ url.name }}</a>.</p>
         {% endfor %}
         {% endif %}
         <p>
