@@ -2,11 +2,20 @@
   start: 2021-01-01T00:00:00
   end: 2021-01-17T00:00:00
   location: Facebook (virtually)
+  description: > 
+    <p>Show manager: Ronnie Brooks</p>
+    <p>Contact (landline): +353 56 444 2356 </p>
+    <p>Contact (mobile): +353 87 741 3710 </p>
+    <p>Contact (email): showmanager@sabcci.com</p>
+    <p>SABCCI Judges: Mrs. V Anderson-Drew, Dr. P Collin, Mrs. A Lyall, Mrs. B Prowse, Mrs. J Smith, and Mr. J Trotter</p>
+    <p>GCCFI Judges: Mrs. V Anderson-Drew, Mrs. D Butters, Mrs. B Prowse, Mrs. Smith (HP), Mr. J Trotter</p>
   urls:
     - name: Flyer
       url: http://www.sabcci.com/media/other/13649/flyerwithdetails.pdf
     - name: Facebook Link
       url: https://www.facebook.com/irish-virtual-cat-show-103079425036118
+    - name: Further information
+      url: http://www.sabcci.com/irish_cat_shows.html
 
 # - name: name of show
 #   start: 2020-04-04T10:00:00
