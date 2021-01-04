@@ -1,25 +1,38 @@
-- name: name of show
-  start: 2020-04-04T10:00:00
-  end: 2020-04-04T12:00:00
-  location: location
-  address: address
-  latitude: 12.123
-  longitude: 12.3456
+- name: The Virtual Irish Cat Show
+  start: 2021-02-01T00:00:00
+  end: 2021-02-17T00:00:00
+  location: Virtual (Facebook)
+  address: Virtual (Facebook)
+  latitude:
+  longitude:
   urls:
-    - name: first entry form
-      url: first link
-    - name: second entry form
-      url: second link
+    - description: Flyer
+      filename: http://www.sabcci.com/media/other/13649/flyerwithdetails.pdf
+    - description: Facebook Link
+      filename: https://www.facebook.com/irish-virtual-cat-show-103079425036118
 
-- name: "Cat Competition"
-  start: 2021-04-14T11:00
-  end: 2021-04-14T15:00
-  location: "Cork City Hall"
-  address: "City Hall, Anglesea St, Centre, Cork, Ireland"
-  latitude: 51.897135
-  longitude: -8.467670
-  urls:
-    - name: "Pedigree entry form"
-      url: "https://www.dropbox.com/pedigree-entry-form.pdf"
-    - name: "Non-pedigree entry form"
-      url: "https://www.dropbox.com/non-pedigree-entry-form.pdf"
+# - name: name of show
+#   start: 2020-04-04T10:00:00
+#   end: 2020-04-04T12:00:00
+#   location: location
+#   address: address
+#   latitude: 12.123
+#   longitude: 12.3456
+#   urls:
+#     - name: first entry form
+#       url: first link
+#     - name: second entry form
+#       url: second link
+
+# - name: "Cat Competition"
+#   start: 2021-04-14T11:00
+#   end: 2021-04-14T15:00
+#   location: "Cork City Hall"
+#   address: "City Hall, Anglesea St, Centre, Cork, Ireland"
+#   latitude: 51.897135
+#   longitude: -8.467670
+#   urls:
+#     - name: "Pedigree entry form"
+#       url: "https://www.dropbox.com/pedigree-entry-form.pdf"
+#     - name: "Non-pedigree entry form"
+#       url: "https://www.dropbox.com/non-pedigree-entry-form.pdf"
