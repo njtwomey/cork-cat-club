@@ -9,7 +9,7 @@ title: Show Dates
         <div class="date"><p><span>{{ show.start | date_to_long_string }}</span></p></div>
         <h1>{{ show.name | capitalize }}</h1>
         <p>&nbsp;</p>
-<p>This {{ show.name }} will take place on <b>{{ show.start | date_to_long_string }}</b> at <b>{{ show.location }}</b> between <b>{{ show.start | date: "%r" }}</b> and <b>{{ show.end | date: "%r" }}</b>.</p>
+        <p><b>{{ show.name }}</b> will take place between <b>{{ show.start | date_to_long_string }}</b> and <b>{{ show.end | date_to_long_string }}</b>. This show will take place in: <b>{{ show.location }}</b>.</p>
         {% if show.address %}
         <p>The full address for this event is: {{ show.address }}</p>
         {% endif %}
