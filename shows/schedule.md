@@ -7,7 +7,7 @@ title: Show Dates
     {% for show in site.data.shows %}
     <li>
         <div class="date"><p><span>{{ show.start | date_to_long_string }}</span></p></div>
-        <h1>{{ show.name | capitalize }}</h1>
+        <h1>{{ show.name | title }}</h1>
         <p>&nbsp;</p>
         <p><b>{{ show.name }}</b> will take place between <b>{{ show.start | date_to_long_string }}</b> and <b>{{ show.end | date_to_long_string }}</b>. This show will take place in: <b>{{ show.location }}</b>.</p>
         {% if show.address %}
