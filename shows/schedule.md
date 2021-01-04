@@ -19,10 +19,14 @@ title: Show Dates
             <p>Click <a href="{{ url.url }}">here for the {{ url.name }}</a>.</p>
         {% endfor %}
         {% endif %}
+        {% if show.latitude %}
+        {% if show.longitude %}
         <p>
             <iframe width="300" height="300"
                     src="https://maps.google.com/maps?q={{ show.latitude }},{{ show.longitude }}{%raw%}&{%endraw%}hl=es;z=14{%raw%}&{%endraw%}amp;output=embed"></iframe>
         </p>
+        {% endif %}
+        {% endif %}
     </li>
     {% endfor %}
 </ul>
